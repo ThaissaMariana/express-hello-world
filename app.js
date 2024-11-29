@@ -36,7 +36,7 @@ app.get("/pokemons", (req, res) => {
   res.json({ pokemons });
 });
 
-app.get("/series", (req, res) => {
+app.post("/series", (req, res) => {
   const series = ["Supernatural", "Outer Banks", "Arrow",];
   res.json({ series });
 });
