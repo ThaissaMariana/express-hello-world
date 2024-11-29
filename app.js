@@ -37,7 +37,7 @@ app.get("/pokemons", (req, res) => {
 });
 
 app.post("/series", (req, res) => {
-  const series = ["Supernatural", "Outer Banks", "Arrow",];
+  const series = ["Supernatural", "Outer Banks", "Arrow"];
   res.json({ series });
 });
 
